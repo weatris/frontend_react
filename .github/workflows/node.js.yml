@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm test
-    - run: npm eslint --fix --ext .js,.jsx
+    - run: npm lint --fix --ext .js,.jsx
