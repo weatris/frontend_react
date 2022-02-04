@@ -28,7 +28,6 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm test
-    - run: npm lint
     - uses: actions/checkout@v2
     - name: Install modules
       run: yarn
